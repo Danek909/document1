@@ -1,7 +1,7 @@
 body{
     display: block;
     margin: 0px; 
-}
+} 
 
 .immages {
     width: 1438px;
@@ -63,6 +63,8 @@ svg {
 
 .mein {
     height: 100vh;
+    max-width: 1438px;
+    width: 100%;
     background-image: url(../images/01.png);
     justify-content: center;
     padding-top: 45px;
@@ -127,8 +129,9 @@ svg {
     display: flex;
     justify-content: center;
     color: #48555B;
-    margin: 57px 325px 57px 57px;
-
+    width: 100%;
+    margin-bottom: 85px;
+    margin-top: 57px;
 }
 
 .title::before {
@@ -145,254 +148,344 @@ svg {
 .founded {
     color: #48555B;
     font-size: 20px;
+    padding-bottom: 30px;
+    
 }
 
 .lorem {
     font-size: 13px;
     color: #48555B;
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
+    max-height: 100%;
     height: 80px;
    
 }
 
 .sating {
-    margin: 0px 0px 0px 250px;
-    width: 788px;
-    height: 280px;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 120px;
 }
 
 .text_blue {
     color: blue;
 }
 
-.bitmap1 {
-    position: relative;
-    left: 390px;
-    justify-content: space-between;
-    top: -190px;
-    height: 170px;
-    width: 125px;
-    padding-left: 10px;
-    margin-left: 40px;
+.bitmap1{
+    padding-right: 15px;
+    padding-top: 28px;
+    width: 140px;
+    height: 179px;
 }
 
-.bitmap2 {
-    position: relative;
-    left: 390px;
-    justify-content: space-between;
-    top: -190px;
-    height: 170px;
-    width: 125px;
-    padding-left: 10px;
+.bitmap2{
+    width: 140px;
+    height: 179px;
+    padding-top: 28px;
 }
 
-.bitmap3 {
-    position: relative;
-    left: 390px;
-    justify-content: space-between;
-    top: -190px;
-    height: 170px;
-    width: 125px;
-    padding-left: 10px;
+.bitmap3{
+    width: 140px;
+    height: 179px;
+    padding-top: 28px;
 }
 
-.plan1 {
-    position: relative;
-    justify-content: space-between;
-    top: -300px;
+.saningleftContent{
+    display: flex;
+    width: 45%;
+    flex-direction:column ;
 }
 
-.plan2 {
-    position: relative;
-    left: 60px;
+.bintmap{
+    display: flex;
+    width: 45%;
     justify-content: space-between;
-    top: -300px;
+}
+ 
+.bintMapItem{
+    position: relative;
+    display: flex;
+    width: 33,3%;
+
 }
 
-.plan3 {
-    position: relative;
-    left: 90px;
-    justify-content: space-between;
-    top: -300px;
+.bitMapTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:24px ;
+    color: #fff;
+    padding-left: 20px;
+    margin-top: 38px;
 }
+
+.bintMapItem_2{
+    position: relative;
+    display: flex;
+    width: 33,3%;
+    margin-right: 15px;
+
+}
+
+.WeManage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:24px ;
+    color: #fff;
+    margin-top: 38px;
+    padding-left: 20px;
+}
+
+
+.bintMapitem_3{
+    position: relative;
+    display: flex;
+    width: 33,3%;
+    margin-right: 15px;
+
+}
+
+.WeBuild{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:24px ;
+    color: #fff;
+    margin-top: 38px;
+    padding-left: 20px;
+}
+
+    /* Нова секція  */
+
+.section_our{
+    width: 100%;
+    height: auto;
+   max-width: 1438px;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: black;
+    
+}
+
 
 /* Новий блок  */
-.logo {
-    color: #48555B;
-    position: relative;
-    margin: 119px 0px 19px 0px;
-}
-
 .logo::before {
     content: "";
     display: flex;
-    width: 55px;
+    width: 50px;
     height: 2px;
     position: absolute;
-    top: 30px;
+    top: 1300px;
+    left: 245px;
     background-color: #00A4E5;
+} 
+
+.divLogo{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.section_our {
-    margin: 0px 0px 0px 250px;
-    width: 788px;
-    height: 450px;
+.subTitleContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 78px;
+}
+
+.logo{
+    padding: 0px;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    color:  #48555B;
+    font-size: 18px;
 }
 
 .p_text {
-    position: relative;
-    left: 350px;
-    bottom: 50px;
-    width: 500px;
-    height: 37px;
+    margin: 0 auto;
+    display: flex;
     color: #48555B;
     font-size: 11px;
+    align-items: center;
+    justify-content: right;
+    align-items: center;
+
 }
 
-.butom_all {
-    position: relative;
-    left: 700px;
-    bottom: 100px;
+.butom_all{
+    border: none;
     background-color: #00A4E5;
     color: #fff;
-    border: none;
     width: 150px;
     height: 40px;
-    
+    margin-right: 18px;
 }
+
+    /* перша рамка  */
+
 .div_1{
-    position: relative; 
+    display: block;
     border: 1PX solid #E6E6E6; 
     color: #FFFFFF;
-    width: 295px ;
-    height: 300px;
-    margin: 0px;
-    bottom: -10px; 
-}
+    max-width: 295px;
+    width: 100%;
+    margin-right: 28px;
+    margin-left: 250px;
+} 
 
 .projekt{
     font-size: 16px;
     color: #48555B;
-    padding-left: 23px ;
-    padding-top: 25px;
-    margin: 0px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 23px;
 }
 
 .ipsum{
     font-size: 13px;
     color: #48555B;
-    padding-left: 23px;
-    padding-top: 13px;
-    margin: 0px 0px 39px 0px;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-bottom: 39px;
 }
 
-.div_2{
-    position: relative;
-    left: 500px;
-    bottom: 250px;
-}
-
-.img_clic{
+.img_clic {
     width: 65px; 
     height: 75px;
-    padding-left: 23px; 
-    padding-top: 38px; 
-}
+    margin-top:38px ;
+    margin-left: 23px;
+
+}  
 
     /* Друга рамка */
 
 .div_2{
+    display: block;
     border: 1PX solid #E6E6E6; 
     color: #FFFFFF;
-    width: 300px;
-    height: 300px; 
-    left: 320px; 
-    bottom: 290px;
-}
+    max-width: 300px;
+    width: 100%; 
+    margin-left: 0px;
+    margin-right: 28p;
+} 
 
 .img_bi2{
-   padding-left: 23px;
-   padding-top: 38px;
+   width: 65px;
+   height: 75px;
+   margin-top: 38px;
+   margin-left: 23px;
 }
 
 .audit{
     font-size: 16px;
     color: #48555B;
-    padding-top: 25px;
-    padding-left: 23px;
-    margin: 0px;
+    margin-top: 25px;
+    margin-left: 23px;
 }
+
 .project_2{
     font-size: 13px;
     color: #48555B;
-    padding-left: 23px;
-    padding-top: 13px;
-    margin: 0px 0px 39px 0px;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-bottom: 39px;
 }
    /* третя рамка */
 
 .div_3{
-    position: relative;
-    left: 650px;
-    width: 300px;
-    height: 300px;
-    bottom: 590px;
+    display: block;
+    max-width: 300px;
+    width: 100%;
     border: 1px solid #E6E6E6;
-}
+    margin-right: 220px;
+    margin-left: 28px
+ } 
+
 
 .project_3{
     font-size: 16px;
-    padding-left: 23px;
-    padding-top: 25px;
     color:#48555B ;
-    margin: 0px;
+    margin-top: 38px;
+    margin-left: 23px;
 }
 
 .img_bi3{
-   padding-left: 23px;
-   padding-top: 38px;
+    width: 65px;
+    height:75px;
+    margin-top: 25px;
+    margin-left: 23px;
 }
 
 .text_h2{
-  font-size: 13px;
-  padding-left: 23px;
-  color: #48555B;
-  padding-top: 13px;
-  margin: 0px;
-  margin: 0px 0px 39px 0px;
+    font-size: 13px;
+    color: #48555B;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-bottom: 30px;
 }
-
-    /* Новий блок */
 
 .img_bg{
     width: 1345px;
     height: 446px;
 }
 
-.section_2{
-    width:1023px ;
-    height: 578px;
+.sumtailClas{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 115px;
 }
 
-.section_h2{
-    position: relative;
-    top: 230px;
-    left: 550px;
-    width: 500px;
+    /* Новий блок */
+.section_2{
+    max-width:1438px ;
+    width: 100%;
+    max-height: 500px ;
+    height: 100%;
+}
+
+.div_bottom{
+    max-width:1438px;
+    width: 100%;
+    background-image: url(../images/bg1.png) ;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_Text{
+    display: flex;
+    align-items: center;
+    padding-left: 530px;
+    margin-left: 10px;
     font-size: 30px;
-    color:#48555B ;
-    margin: 25px 0px 25px 0px ;
+    color: #48555B;
+    Line-height: 36px;
 }
 
 .buttom_2{
-    position: relative;
-    top: 230px;
-    left: 600px;
+    display: block;
+    margin: 0 auto;
     background-color: #00A4E5;
     border: none;
     width: 150px;
     height: 40px;
     color: #fff;
+    margin-bottom: 100px;
     
 } 
    /* новий блок */
@@ -400,14 +493,20 @@ svg {
 .div_sectoin{
     display:flex;
     background-color:#171819;
-    width: 1345px;
+    max-width: 1438px;
+    width: 100%;
     height: 100px;
 }
 
 .div_h2{
     color: #fff;
-    margin: 35px 0px 0px 375px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+
 }
+
+        /* Новий блок  */
 
 .sction_3{
     width: 1345px;
@@ -443,10 +542,12 @@ svg {
     width: 123px;
     height: 15px;
 }
+
     /* Нова секція */
 
 .section_bottom{
-    width:1345px ;
+    max-width:1438px;
+    width: 100%;
     height: 240px;
     background-color: #141A20;
 }
@@ -486,11 +587,9 @@ svg {
     margin: 0px;
     padding: 0px;    
 }
+
 .li_links{
-    position: relative;
-    right: -467px;
     padding: 0px;
-    margin-top: 42px;
     color: #fff;
     font-size: 11px;
 }
@@ -575,19 +674,18 @@ svg {
 }   
 
 .div_podval{
-    position: relative;
-    top: -362px;
+
     background-color: #171819;
-    width:1345px;
+    max-width:1438px;
+    width: 100%;
     height: 60px;
     margin: 0px;
 }
+
 .h2_podval{
     display: flex;
     color: #fff;
     font-size: 11px;
-   align-items: center;
-   position: relative;
-   right: -500px;
-   top: 20px;
+    align-items: center;
+    width: 500px;
 }  
