@@ -1,6 +1,6 @@
 const factory = document.getElementById('burger');
 if(factory){
-    const isHeder = document.getElementById('heder');
+    const isHeder = document.getElementById('fot');
     factory.addEventListener("click", function(e){
         isHeder.classList.toggle('_active');
     }); 
@@ -12,12 +12,4 @@ if(factory){
     factory.addEventListener("click", function(e){
         isHeder.classList.toggle('_activee');
     }); 
-}
-
-const faactory = document.getElementById('fot');
-if(faactory){
-    const isfot = document.getElementById('fot');
-    faactory.addEventListener("click", function(e){
-        isfot.classList.toggle('_activ')
-    });
 }
