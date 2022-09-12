@@ -1211,7 +1211,9 @@ ul p{
     }
 
     .div_h2{
-        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 190px;
     }
 
     .logo::before{
@@ -1238,6 +1240,22 @@ ul p{
         margin-left: 73px;
         width: 163px;
         margin-top: 30px;
+    }
+
+    .div_sectoin{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: #171819;
+    }
+
+    .checen_box{
+        margin-top: 10px;
+    }
+
+    .section_clic{
+        margin-top: 10px;
     }
     
 }
