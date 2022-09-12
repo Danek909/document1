@@ -1121,8 +1121,29 @@ ul p{
 
 @media (max-width: 425px){
 
+    .div_sectoin{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: #171819;
+    }
+
+    .section_clic{
+        margin-top: 10px;
+    }
+
+    .checen_box{
+        margin-top: 10px;
+    }
+
     .text{
         width: 298px;
+    }
+
+    .div_h2{
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
 
     .bintmap{
