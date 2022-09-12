@@ -1211,7 +1211,7 @@ ul p{
     }
 
     .div_h2{
-        margin-left: 8px;
+        margin-left: 0px;
     }
 
     .logo::before{
@@ -1238,10 +1238,6 @@ ul p{
         margin-left: 73px;
         width: 163px;
         margin-top: 30px;
-    }
-
-    .bottom_4{
-      
     }
     
 }
