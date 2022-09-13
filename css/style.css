@@ -1175,6 +1175,12 @@ ul p{
 }
 
 @media (max-width: 375px){
+
+    .logo::before {
+        top: 2008px;
+        left: 100px;
+    }
+
     .text{
         width: 298px;
     }
@@ -1200,11 +1206,6 @@ ul p{
 
     .bitMapTitle{
         margin-top: 85px;
-    }
-
-    .logo::before{
-        top: 1952px;
-        left: 100px;
     }
 
     .logo{
