@@ -819,6 +819,10 @@ ul p{
 
 @media (max-width: 1024px){
 
+    .nawHeder{
+        width: 600px;
+    }
+
     .imgHeder{
         margin-left: 2px;
     }
@@ -826,11 +830,6 @@ ul p{
     .foot{
         margin-left: 210px;
     }
-
-    .heder_conteiner{
-        margin-left: 90px;
-    }
-    
 
     .logo::before{
         top: 1215px;
@@ -870,7 +869,7 @@ ul p{
         position: fixed;
         top: 0;
         width: 100%;
-        background-color:dimgray;
+        background-color:darkgray;
         border: 0;
         z-index: 1000;
     }
@@ -970,7 +969,7 @@ ul p{
         margin-top: 65px;
         display: flex;
         align-items: center;
-        background-color: gray;
+        background-color: ivory;
         width: 100%;
         height: 100%;
         margin-left: 0;
@@ -1046,7 +1045,7 @@ ul p{
         position: fixed;
         width: 37px;
         height: 4px;
-        top: 22px;
+        top: 41px;
         z-index: 3;
         border-radius: 30px;
     }
@@ -1065,7 +1064,7 @@ ul p{
         position: fixed;
         width: 37px;
         height: 4px;
-        top: 13px;
+        top: 22px;
         display: block;
         z-index: 6;
         border-radius: 30px;
@@ -1119,7 +1118,7 @@ ul p{
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 430px){
 
     .div_sectoin{
         display: flex;
@@ -1180,6 +1179,10 @@ ul p{
         width: 298px;
     }
 
+    .lorem{
+        margin-bottom: 60px;
+    }
+
     .bintmap{
         display: flex;
         flex-direction: column;
@@ -1191,8 +1194,12 @@ ul p{
         padding-top: 65px;
     }
 
+    .bitMapItem{
+        margin-top: 90px;
+    }
+
     .bitMapTitle{
-        margin-top: 75px;
+        margin-top: 85px;
     }
 
     .logo::before{
