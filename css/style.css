@@ -1149,12 +1149,12 @@ ul p{
     .bintmap{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 60px;
-        margin-right: 45px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .logo::before{
-        top: 1707px;
+        top: 1915px;
         left: 127px;
     }
     
@@ -1247,7 +1247,8 @@ ul p{
     }
 
     .logo::before{
-        left: 78px;
+        left: 72px;
+        top: 2012px;
     }
 
     .bottom_2{
