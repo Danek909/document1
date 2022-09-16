@@ -13,7 +13,6 @@ body{
     margin: 0 auto;
 }
 
-
 .header {
     background: #fff;
     border: 1px solid #E6E6E6;
@@ -26,7 +25,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .foot {
@@ -59,14 +57,12 @@ svg {
 }
 
 .foot a {
-
     font-size: 12px;
     color: #48555B;
     list-style-type: none;
     text-decoration: none; 
     font-weight: bold;
     transition: 0.4s;
-
 }
 
 .foot a:hover {
@@ -113,18 +109,12 @@ svg {
     justify-content: center;
     border: none;
     background-color: transparent;
-    transition: 0.4s;
     color: #fff;
     word-spacing: 3px;
     position: absolute;
     bottom: 71px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.scrol_down:hover {
-    color: black;
-
 }
 
 .about a {
@@ -158,7 +148,6 @@ svg {
     position: absolute;
     top: 27px;
     background-color: #00A4E5;
-
 }
 
 .founded {
@@ -194,7 +183,7 @@ svg {
 
 .bitmap1{
     padding-right: 15px;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 140px;
     height: 179px;
 }
@@ -227,7 +216,6 @@ svg {
     position: relative;
     display: flex;
     width: 33,3%;
-
 }
 
 .bitMapTitle{
@@ -237,7 +225,7 @@ svg {
     font-size:24px ;
     color: #fff;
     padding-left: 20px;
-    margin-top: 57px;
+    margin-top: 38px;
 }
 
 .bintMapItem_2{
@@ -245,7 +233,6 @@ svg {
     display: flex;
     width: 33,3%;
     margin-right: 15px;
-
 }
 
 .WeManage{
@@ -258,13 +245,11 @@ svg {
     padding-left: 20px;
 }
 
-
 .bintMapitem_3{
     position: relative;
     display: flex;
     width: 33,3%;
     margin-right: 15px;
-
 }
 
 .WeBuild{
@@ -277,14 +262,11 @@ svg {
     padding-left: 20px;
 }
 
-    /* Нова секція  */
-
 .section_our{
     width: 100%;
     height: auto;
    max-width: 1438px;
 }
-
 
 .box{
     display: flex;
@@ -293,19 +275,6 @@ svg {
     background-color: black;
     
 }
-
-
-/* Новий блок  */
-.logo::before {
-    content: "";
-    display: flex;
-    width: 50px;
-    height: 2px;
-    position: absolute;
-    top: 1300px;
-    left: 250px;
-    background-color: #00A4E5;
-} 
 
 .divLogo{
     max-width: 940px;
@@ -328,6 +297,18 @@ svg {
     justify-content: center;   
     color:  #48555B;
     font-size: 18px;
+    position: relative;
+}
+
+.logo::before{
+    content: "";
+    display: flex;
+    width: 55px;
+    height: 2px;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    background-color: #00A4E5;
 }
 
 .p_text {
@@ -355,9 +336,7 @@ svg {
 .butom_all:hover{
     background-color:darkgrey;
 }
-
-    /* перша рамка  */
-    
+ 
 .itemSumtailClas{
     width: 33.3%;
     height: auto;
@@ -390,8 +369,6 @@ svg {
 
 }  
 
-    /* Друга рамка */ 
-
 .img_bi2{
    width: 65px;
    height: 75px;
@@ -413,7 +390,6 @@ svg {
     margin-left: 23px;
     margin-bottom: 39px;
 }
-   /* третя рамка */
 
 .project_3{
     font-size: 16px;
@@ -451,7 +427,6 @@ svg {
     margin-left: 230px;
 }
 
-    /* Новий блок */
 .section_2{
     max-width:1438px ;
     width: 100%;
@@ -499,7 +474,6 @@ svg {
 .buttom_2:hover{
     background-color: darkgray;
 }
-   /* новий блок */
 
 .div_sectoin{
     display:flex;
@@ -515,10 +489,7 @@ svg {
     margin-left: 378px;
     width: 300px;
     align-items: center;
-
 }
-
-        /* Новий блок  */
 
 .sction_3{
     width:100%;
@@ -536,7 +507,6 @@ svg {
     padding-top: 11px;
     padding-left: 16px;
     font-size: 14px;
-
 }
 
 .section_clic{
@@ -562,8 +532,6 @@ svg {
     width: 123px;
     height: 15px;
 }
-
-    /* Нова секція */
 
 .section_bottom{
     width: 100%;
@@ -754,7 +722,7 @@ ul p{
     letter-spacing: 0.85px;
 }
 
- .f01{
+.f01{
     display: flex;
    width: 12px;
    height: 12px;
@@ -831,12 +799,6 @@ ul p{
         margin-left: 210px;
     }
 
-    .logo::before{
-        top: 1215px;
-        left: 80px;
-    }
-
-
     .div_1{
         margin-left: 82px;
     }
@@ -861,6 +823,12 @@ ul p{
         margin-left: 75px;
         margin-right: 48px;
     }
+
+    .bintmap{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
 }
 
 @media (max-width: 768px){
@@ -884,9 +852,15 @@ ul p{
        margin: 0 150px;
        margin-top: 75px;
     }
-    .logo::before{
-        top: 1425px;
-        left: 45px;
+
+    .subTitleContainer{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .butom_all{
+        margin: 0 auto;
     }
 
     .founded{
@@ -918,7 +892,7 @@ ul p{
         margin-left: 100px;
     }
     .section_clic{
-        margin-right: 100px;
+        margin-right: 20px;
     }
     .h2_cont{
         width: 175px;
@@ -945,22 +919,6 @@ ul p{
         align-items: center;
         right: 30px;
     }
-
-    /* .heder_menu{
-        position: fixed;
-        width: 100%;
-        height: 700px;
-        top: 0px;
-        left: -100%;
-        z-index: 50;
-        background-color: thistle;
-        overflow: scroll;
-        transition: all 0.8s ease 0s;
-    } */
-
-    /* .heder_menu._active{
-        left: 0; 
-    } */
 
     .foot{
         display: flex;
@@ -1026,19 +984,6 @@ ul p{
         top: 12px;
         left: 30px;
     }
-
-
-    /* .heder_menu:before{
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 0px;
-        width: 100%;
-        max-width: 1438px;
-        height: 50px;
-        background-color: #FF2E63;
-        z-index: 3;
-    } */
     
     .heder_burger:before{
         content: '';
@@ -1104,17 +1049,25 @@ ul p{
         margin-top: 20px;
     }
 
-    .logo::before{
-        top: 1446px;
+    .text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 
     .bintmap{
-        margin-left: 45px;
-        margin-right: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 50px;
     }
 
     .div_bottom{
         background-position: center;
+    }
+
+    .div_h2{
+        width: 243px;
     }
 
 }
@@ -1151,11 +1104,7 @@ ul p{
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-    }
-
-    .logo::before{
-        top: 1915px;
-        left: 127px;
+        margin-top: 70px;
     }
     
     .logo{
@@ -1177,11 +1126,6 @@ ul p{
 
 @media (max-width: 375px){
 
-    .logo::before {
-        top: 2008px;
-        left: 100px;
-    }
-
     .text{
         width: 298px;
     }
@@ -1194,7 +1138,6 @@ ul p{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 145px;
     }
 
     .bitmap1{
@@ -1246,11 +1189,6 @@ ul p{
         width: 190px;
     }
 
-    .logo::before{
-        left: 72px;
-        top: 2012px;
-    }
-
     .bottom_2{
         display: flex;
         flex-wrap: wrap;
@@ -1290,4 +1228,3 @@ ul p{
     }
     
 }
-
